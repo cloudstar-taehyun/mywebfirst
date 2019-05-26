@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introduction</title>
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+    .user_contact {
+        list-style-type: none;
+    }
+</style>
+
+<body>
+    <h1><b>나를 소개합니다.</b></h1>
+
+    <img src="my_picture.jpg" width="300" height="200">
+
+    <div class="my_information">
+        <h3><b>이름 : </b>이태현</h3>
+        <h3><b>학과 : </b>스칸디나비아어학과</h3>
+        <h3><b>나이 : </b>23살</h3>
+        <h3><b>주소 : </b>서울특별시 동대문구</h3>
+        <h3><b>목표 : </b>데이터 분석을 통해, 간단한 정보만으로도 각자에게 알맞은 여행지를 추천해주는 웹 페이지를 개발하는 것이 목표입니다.</h3>
+    </div>
+
+    <h3><b>Contact</b></h3>
+    <form action="mail_info.php">
+        <ul class="user_contact">
+            <li>
+                <label for="user_name">
+                    이름
+                    <input type="text" id="user_name">
+                </label>
+            </li>
+            <li>
+                <label for="user_email">
+                    이메일
+                    <input type="text" id="user_email">
+                </label>
+            </li>
+            <li>
+                <textarea cols="30" rows="10">
+                </textarea>
+            </li>
+            <li>
+                <input type="submit" id="user_submit">
+            </li>
+        </ul>
+    </form>
+
+    <a class="btn btn-link" href="https://www.instagram.com/cloudstar_taehyun/?hl=ko" role="button">Instagram</a>
+    <a class="btn btn-link" href="https://www.blog.naver.com/dlxogus0417" role="button">Blog</a>
+    <a class="btn btn-link" href="Homepage.html">뒤로가기</a>
+
+</body>
+
+</html>
